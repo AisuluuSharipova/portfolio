@@ -1,0 +1,38 @@
+.info h2 {
+	font-size: 70px;
+	border: 5px;
+	color: transparent;
+	-webkit-text-stroke: 1px white;
+	display: flex;
+	justify-content: center;
+	font-weight: 900;
+	letter-spacing: 8px;
+	padding-top: 50px;
+	font-family:lobster;
+}
+.info {
+	padding-top: 50px;
+	margin-bottom: 50px;
+	width: 65%;
+}
+.containerR2 {
+	margin: 0 auto;
+	width: 65%;
+	padding-bottom: 300px;
+}
+.aboutMe {
+	color: white;
+	
+}
+h3 {
+	margin-top: 30px;
+	color: transparent;
+	-webkit-text-stroke: 0.3px white;
+	font-family: lobster;
+}
+*{
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
