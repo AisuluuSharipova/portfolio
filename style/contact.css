@@ -1,0 +1,92 @@
+ .contact h2 {
+	font-size: 70px;
+	border: 5px;
+	color: transparent;
+	-webkit-text-stroke: 1px white;
+	display: flex;
+	justify-content: center;
+	font-weight: 900;
+	letter-spacing: 8px;
+	padding-top: 50px;
+	font-family: lobster;
+}
+.contact {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	width: 65%;
+	color: white;
+	font-style: oblique;
+
+}
+.contact ul {
+	margin: 0 auto;
+	width: 85%; 
+ }
+.contact li {
+	display: flex;
+	justify-content: space-between;
+}
+.contact li p {
+	font-size: 36px;
+	font-weight: bold;
+	color: transparent;
+	-webkit-text-stroke: 1px rgb(245, 241, 241);
+	font-style: oblique;
+	letter-spacing: 5px;
+}
+p {
+    font-style: oblique;
+
+}
+.contact li a {
+	font-size: 20px;
+	font-weight: 200;
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+}
+  
+  #auth {
+    margin-top: 5px; 
+  }
+
+  .container {
+	width: 50%;
+	color: rgb(249, 250, 251);
+	text-shadow: 2px 2px rgb(87, 104, 238);
+	padding-bottom: 80px;
+	box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #919bf5;
+
+}
+.form-group {
+	margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+	.contact.containerR ul li {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contact.containerR ul li > p {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+} 

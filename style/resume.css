@@ -1,0 +1,27 @@
+.resume h2 {
+	font-size: 70px;
+	border: 5px;
+	color: transparent;
+	-webkit-text-stroke: 1px white;
+	display: flex;
+	justify-content: center;
+	font-weight: 900;
+	letter-spacing: 8px;
+	padding-top: 50px;
+	font-family:lobster;
+}
+.resume img {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+.container {
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	color: white;
+}
+
