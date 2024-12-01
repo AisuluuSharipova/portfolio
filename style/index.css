@@ -113,6 +113,8 @@ footer {
 }
 .socialNetworks img {
 	width: 35px;
+	background-color: transparent;
+	box-shadow: none !important;
 }
 #whatsapp {
 	margin-top: 15px;
