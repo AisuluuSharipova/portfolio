@@ -61,7 +61,6 @@ body {
 	border-radius: 10%;
 	margin-top: 10px;
 	box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #919bf5;
-
 }
 .info {
 	width: 75%;
@@ -91,9 +90,6 @@ footer {
 	color: rgb(239, 239, 245);
 	text-shadow: 1px 1px black; 
   } 
-
-
-
 
 @media (max-width: 800px) {
 	.info.containerR {
